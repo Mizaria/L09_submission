@@ -2,7 +2,21 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
+#hometitle{
+  text-align: center;
+  color: green
+}
+#Homedes{
+  border-color:green;
+  border-style: solid;
+  border-width: 1px;
+  border-width: 1px 0;
+  padding: 5px;
+  color: black;
+}
+#homebackground{
+  background-color: rgb(226, 237, 227);
+}
 body {
   margin: 0;
   color: #222;
@@ -18,7 +32,7 @@ h1 {
 
 h2 {
   font-size: 1.85rem;
-  color: #858585;
+  color: green;
 }
 
 h3 {
@@ -28,7 +42,7 @@ h3 {
 
 h4 {
   font-size: 1.25rem;
-  color: #525252;
+  color: green;
   margin: 0 0 0.25em;
 }
 
@@ -57,7 +71,7 @@ ul li {
 /* nav & links */
 
 a {
-  color: #e7212b;
+  color: lightgreen;
 }
 
 a:hover {
@@ -67,7 +81,7 @@ a:hover {
 nav a {
   display: block;
   font-size: 1.25rem;
-  color: #DD1F26;
+  color: lightgreen;
   padding-bottom: 0.15em;
   border-bottom: 2px solid transparent;
   font-weight: 500;
@@ -76,25 +90,31 @@ nav a {
 
 nav a:hover, 
 .nav-active {
-  color: #5dabaa;
+  color: green;
 }
 
 .categories a {
   font-weight: 500;
-  color: #605e5e;
+  color: green;
   text-decoration: none;
   padding: 0.25em 0.4em;
+  border-color: lightgreen;
+  border-width: 1px;
+  border-style: solid;
 }
 .categories a:hover, 
 a.category-active {
-  color: #fff;
-  background-color: #605e5e;
+  color: white;
+  background-color: darkgreen;
+  border-color: lightgreen;
+  border-width: 1px;
+  border-style: solid;
   border-radius: 3px;
 }
 
 .session a {
   display: block;
-  color: rgb(56, 56, 56);
+  color:darkgreen;
   text-decoration: none;
   border: 1px solid currentColor;
   padding: 0.85em 1.125em;
@@ -103,7 +123,7 @@ a.category-active {
 
 .session a:hover, 
 a.session-active {
-  color: #489b9a;
+  color: lightgreen;
 }
 
 /* components & assets */
@@ -161,7 +181,7 @@ input {
 }
 
 input:focus {
-  outline-color: #5dabaa;
+  outline-color: lightgreen;
 }
 
 input[type="submit"] {
@@ -169,11 +189,11 @@ input[type="submit"] {
   color: #fff;
   font-weight: bold;
   padding: 0.65em 0;
-  background-color: #75bebd;
+  background-color: lightgreen;
   border: none;
 }
 input[type="submit"]:hover {
-  background-color: #5dabaa;
+  background-color: green;
 }
 
 /* layout */
@@ -209,13 +229,13 @@ footer.container {
 }
 
 /* media queries */
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   nav a {
-    padding: 0.35em 0;
+    padding: 0.4em 0;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   header, 
   nav {
     display: flex;

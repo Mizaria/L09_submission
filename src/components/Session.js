@@ -13,7 +13,7 @@ export default function Session() {
 
       <h4>{speaker.name}</h4>
       <span>
-        {speaker.title} at {speaker.org}
+        {speaker.title}  {speaker.org}
       </span>
       <p>{speaker.bio}</p>
     </>

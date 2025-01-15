@@ -19,15 +19,15 @@ function App() {
           <Route path=":catId" element={<Category />}>
             <Route path=":sessionId" element={<Session />} />
           </Route>
-          <Route index element={<h3>Select a deploma from above</h3>} />
+          <Route index element={<h3>Select a diploma</h3>} />
         </Route>
         <Route path="Register" element={<Register />} />
         <Route path="Confirmed" element={<Confirmation />} />
-        <Route path="*" element={<h1 className="not-found">Page Not Found</h1>} />
+        <Route path="*" element={<h1 className="not-found">Page IsNot Found</h1>} />
       </Routes>
 
       <footer className="container">
-        &copy;2024 | <a href="https://www.rp.edu.sg/schools-courses">Republic Polytechnic</a>
+        &copy;2024 | <a href="https://www.rp.edu.sg/schools-courses">Republic Polytechnic Courses</a>
       </footer>
     </div>
   );
